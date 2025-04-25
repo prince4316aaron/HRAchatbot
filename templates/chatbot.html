@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/styles.css" />
+    <link rel="icon" href="/static/hralogo.jpg" type="image/png" />
+    <title>chatbot</title>
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="back-button">
+        <button onclick="goBack()">Back</button>
+      </div>
+      <div class="chat-bot">
+        <p>HRA Chatbot</p>
+        <div class="chat-box">
+          <div class="chat-messages"></div>
+          <div class="type-button">
+            <input type="text" placeholder="Type your message..." />
+            <button id="send-button">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
