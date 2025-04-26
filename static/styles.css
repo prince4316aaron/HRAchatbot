@@ -1,6 +1,7 @@
 * {
   text-decoration: none;
   padding: 0;
+  margin: 0;
 }
 body {
   background-color: #e1f5fe;
@@ -23,7 +24,6 @@ body {
   color: whitesmoke;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
-  margin: 0;
 }
 .chatbutton button:hover {
   background-color: #388e3c;
@@ -235,6 +235,7 @@ strong {
   padding: 10px 20px;
   background-color: #81c784;
   border-radius: 8px;
+  color: #e0f7fa;
   cursor: pointer;
   transition: background color 0.2s ease-in-out;
 }
@@ -251,6 +252,11 @@ strong {
   .back-button {
     margin-left: 15px;
   }
+  .back-button button {
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #e0f7fa;
+  }
   .text {
     font-size: 18px; /* Adjust font size */
     margin-top: 50px; /* Adjust margin for text positioning */
@@ -262,11 +268,11 @@ strong {
   .bot-message {
     font-size: 12px;
   }
-  .text h1 {
-    font-size: 18px;
-  }
   .chatbutton button {
-    padding: 15px 10px;
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+  .text h1 {
     font-size: 18px;
   }
 }
