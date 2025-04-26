@@ -1,7 +1,6 @@
 * {
   text-decoration: none;
   padding: 0;
-  margin: 0;
 }
 body {
   background-color: #e1f5fe;
@@ -24,6 +23,7 @@ body {
   color: whitesmoke;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
+  margin: 0;
 }
 .chatbutton button:hover {
   background-color: #388e3c;
@@ -261,5 +261,12 @@ strong {
   }
   .bot-message {
     font-size: 12px;
+  }
+  .text h1 {
+    font-size: 18px;
+  }
+  .chatbutton button {
+    padding: 15px 10px;
+    font-size: 18px;
   }
 }
