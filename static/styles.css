@@ -268,6 +268,9 @@ strong {
   .bot-message {
     font-size: 12px;
   }
+  .user-message {
+    font-size: 12px;
+  }
   .chatbutton button {
     padding: 15px 20px;
     font-size: 16px;
