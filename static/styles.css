@@ -107,7 +107,7 @@ body {
   align-items: center; /* Center messages horizontally */
   overflow-y: auto;
   padding: 10px;
-  width: 93%;
+  width: 98%;
   max-height: 80%; /* Ensure the messages area doesn't take up all available space */
   margin-bottom: 10px;
 }
@@ -257,6 +257,7 @@ strong {
   }
   .chat-messages {
     max-height: 70%; /* Increase the message area */
+    width: 93%;
   }
   .bot-message {
     font-size: 12px;
